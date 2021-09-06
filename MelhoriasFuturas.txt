@@ -1,0 +1,7 @@
+- Implementar hash SHA1 para proteção da senha;
+- Criar categorias para agrupamentos de livros;
+- Criar um classificador físico identificando corredor e prateleira, para localizar o livro em um ambiente físico;
+- Criar um módulo de gerência de empréstimos prazos de devolução;
+- Especializar dados dos livros como Autor e Editora, que podem ser comuns a vários livros, por exemplo;
+- Criar Telas para cadastro, alteração de perfis e combinação de ações para perfis;
+

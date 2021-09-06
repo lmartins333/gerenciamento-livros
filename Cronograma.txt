@@ -1,0 +1,46 @@
+Cronograma
+01/09/2021
+- Modelagem do banco de dados;
+- Implementação dos modelos Acao, AcaoPerfil, HistoricoAcoes, Livro, Perfil e Usuario;
+- Criação das telas TelaCadastroUsuario, TelaLogin, TelaPrincipal e TelaSplash;
+- Criação da Thread para ação da Barra de Progresso da telade Splash;
+- Conexão entre a TelaSplash e sua Thread e chamada da TelaLogin;
+- Criação da Classe Interface;
+
+02/09/2021
+- Criação e implementação da classe JFrameExtra;
+	- validarCamposEAvancar;
+	- campoPreenchido;
+	- todosOsCamposEstaoPreenchidos;
+	- erroCampo;
+- Inclusão da funcionalidade Cadastre-se;
+- Validação dos campos da TelaLogin;
+- Validação dos campos da TelaCadastroUsuario;
+
+03/09/2021
+- Criação de script do banco de dados;
+- Reciclagem de classe de conexão ao banco de dados;
+- Testes de conexão ao banco de dados;
+
+04/09/2021
+- Validação de CPF e Nome de Usuário (evitando duplicações);
+- Início da implementação de um classe Interface entre o sistema e a Conexão com Banco de Dados;
+- Reciclagem e adaptação de classe para manipulação de datas;
+- Criação da tela de CadastroLivros;
+- Validação dos Campos CadastroLivros;
+
+05/09/2021
+- Continuação de criação de funções para a classe Interface com o Banco de Dados;
+- Criação da importação dos livros para a tabela e métodos auxiliares
+- Criação dos métodos de alteração e exclusão de livros;
+- Criação da tela de alteração de livros;
+- Validação das permissões do usuário para determinado livro (se ele é administrador ou se foi ele quem adicionou o livro no sistema);
+- Testes para adapção e correção de bugs no sistema;
+- Criação do botão Atualizar caso usuário cadastre livros em outros terminais;
+- Inclusão de Botões de Sair nas telas;
+- Inclusão de Variável Global para identificar sessão de usuário;
+- Reciclagem de métodos para manipulação de JTable:
+	- adicionarlinhasTabela;
+	- removerLinhasTabela;
+	- limparLista;
+	- removerLinha;
